@@ -3,9 +3,9 @@
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 @import "normalize";
 
-/*  
+/*
   ZURB Foundation components:
-  Import the building blocks you need for your project. 
+  Import the building blocks you need for your project.
   Reducing the number of imported components will optimize page speed.
 */
 
@@ -50,7 +50,7 @@
 @import "../bower_components/foundation/scss/foundation/components/offcanvas";
 @import "../bower_components/foundation/scss/foundation/components/visibility";
 
-/* 
+/*
   Font Awesome - (http://fontawesome.io/) :
   Feel free to remove the import statement below if you don't plan to use icon-fonts in your project
 */
@@ -58,13 +58,15 @@
 @import "../assets/fontawesome/scss/font-awesome.scss";
 
 
-/* 
+/*
   My custom styles:
   Add your scss files below to structure your project styles
-*/ 
+*/
 
-@import "site/global"; 
 @import "site/wp-admin";
 @import "site/topbar";
-@import "site/hero";
+@import "site/global";
+@import "site/header";
 @import "site/footer";
+@import "site/page";
+@import "site/hero";

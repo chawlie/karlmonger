@@ -42,6 +42,8 @@
 		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/apple-touch-icon-114x114-precomposed.png">
 		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/apple-touch-icon-72x72-precomposed.png">
 		<link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/icons/apple-touch-icon-precomposed.png">
+		<script src="//use.typekit.net/ogi2ull.js"></script>
+		<script>try{Typekit.load();}catch(e){}</script>
 
 		<?php wp_head(); ?>
 	</head>
@@ -60,13 +62,19 @@
 						<div class="page-header-border">
 							<div class="row">
 								<div class="columns medium-12">
-									<div class="primary-logo text-center"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="Go to <?php bloginfo('name'); ?> Home Page"><img src="<?php bloginfo('template_url'); ?>/images/karl-monger-logo.jpg" alt="Karl Monger Manuscript Editing" /></a></div>
-									<div class="row">
-										<div class="columns medium-12">
-											<nav class="primary-nav">
-												<?php foundationpress_top_bar_l(); ?>
-									            <?php foundationpress_top_bar_r(); ?>
-											</nav>
+									<div class="logo-wrapper">
+										<div class="primary-logo text-center"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="Go to <?php bloginfo('name'); ?> Home Page"><img src="<?php bloginfo('template_url'); ?>/images/karl-monger-logo.jpg" alt="Karl Monger Manuscript Editing" /></a></div>
+										<div class="logo-bar">
+											<div class="logo-bar-sides"></div>
+											<div class="logo-bar-hr"></div>
+										</div>
+										<div class="row">
+											<div class="columns medium-12">
+												<nav class="primary-nav">
+													<?php foundationpress_top_bar_l(); ?>
+										            <?php foundationpress_top_bar_r(); ?>
+												</nav>
+											</div>
 										</div>
 									</div>
 								</div>

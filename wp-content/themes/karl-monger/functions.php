@@ -42,6 +42,9 @@ require_once( 'library/enqueue-scripts.php' );
 /** Add theme support */
 require_once( 'library/theme-support.php' );
 
+/** Add short codes */
+require_once( 'library/shortcodes.php' );
+
 /** Add Header image */
 require_once( 'library/custom-header.php' );
 

@@ -56,9 +56,21 @@
 	<?php do_action( 'foundationpress_layout_start' ); ?>
 	<?php get_template_part( 'parts/off-canvas-menu' ); ?>
 		<div class="row">
+			<nav class="tab-bar">
+				<section class="left-small">
+					<a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
+				</section>
+				<section class="middle tab-bar-section">
+
+					<h1 class="title">
+						MENU
+					</h1>
+
+				</section>
+			</nav>
 			<div class="columns medium-12">
 				<div class="page-wrapper">
-					<header class="page-header show-for-medium-up">
+					<header class="page-header">
 						<div class="page-header-border">
 							<div class="row">
 								<div class="columns medium-12">
@@ -70,7 +82,7 @@
 										</div>
 										<div class="row">
 											<div class="columns medium-12">
-												<nav class="primary-nav">
+												<nav class="primary-nav hide-for-small">
 													<?php foundationpress_top_bar_l(); ?>
 										            <?php foundationpress_top_bar_r(); ?>
 												</nav>
@@ -81,18 +93,6 @@
 							</div>
 						</div>
 					</header>
-					<nav class="tab-bar">
-						<section class="left-small">
-							<a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
-						</section>
-						<section class="middle tab-bar-section">
-
-							<h1 class="title">
-								<?php bloginfo( 'name' ); ?>
-							</h1>
-
-						</section>
-					</nav>
 
 					<section class="container" role="document">
 						<?php do_action( 'foundationpress_after_header' ); ?>

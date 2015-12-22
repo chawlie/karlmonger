@@ -4,6 +4,20 @@ Template Name: Full Width
 */
 get_header(); ?>
 <div class="row">
+	<div class="small-12 columns">
+		<section class="page-hero-image">
+			<?php if ( has_post_thumbnail() ) : ?>
+				<div class="row">
+					<div class="column">
+						<?php the_post_thumbnail(); ?>
+					</div>
+				</div>
+			<?php endif; ?>
+		</section>
+	</div>
+</div>
+
+<div class="row page-wrapper">
 	<div class="small-12 large-12 columns" role="main">
 
 	<?php /* Start loop */ ?>

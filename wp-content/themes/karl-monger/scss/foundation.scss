@@ -10,6 +10,7 @@
 */
 
 @import "config/settings"; // Default settings file. Uncomment each setting you need to change
+@import "config/variables";
 @import "config/custom-settings"; // Or copy the stuff you need to change to this file and uncomment
 
 @import "../bower_components/foundation/scss/foundation/components/grid";
@@ -65,8 +66,10 @@
 
 @import "site/wp-admin";
 @import "site/topbar";
+@import "site/typography";
 @import "site/global";
 @import "site/header";
 @import "site/footer";
 @import "site/page";
+@import "site/testimonials";
 @import "site/hero";

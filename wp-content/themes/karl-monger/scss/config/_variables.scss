@@ -1,0 +1,62 @@
+// Base
+// -----------------------------------
+
+// Asset paths
+$theme-path: "/wp-content/themes/karlmonger/";
+$img-path: $theme-path + "public/img";
+$fonts-path: $theme-path + "public/fonts";
+
+// Global
+$global-link-transition: all 0.15s ease-in-out;
+$global-animation-transition: all 0.3s ease-in-out;
+$global-border: solid 3px #eee;
+$global-border-lighter: solid 1px #eee;
+$global-radius: 3px;
+$global-rounded: 1000px;
+
+// Colors
+$primary-color: #ef4136;
+$secondary-color: #e7e7e7;
+$alert-color: #f04124;
+$success-color: #43AC6A;
+$warning-color: $primary-color;
+$info-color: #a0d3e8;
+
+
+// Foundation Overrides
+// -----------------------------------
+
+// Grid
+$row-width: rem-calc(960);
+$column-gutter: rem-calc(30);
+
+//Typography
+$font-weight-normal: 400 !default;
+$font-weight-bold: 700 !default;
+
+$body-font-family: 'source-sans-pro',sans-serif;
+$body-font-weight: $font-weight-normal;
+
+$base-font-size: 100%;
+$base-line-height: 150%;
+
+$h1-font-size: rem-calc(40);
+$h2-font-size: rem-calc(30);
+$h3-font-size: rem-calc(24);
+$h4-font-size: rem-calc(20);
+$h5-font-size: rem-calc(18);
+$h6-font-size: 1rem;
+
+$header-font-family: $body-font-family;
+$header-font-weight: $font-weight-bold;
+$header-font-style: normal;
+$header-font-color: #222;
+$header-line-height: 1.4;
+$header-top-margin: .2rem;
+$header-bottom-margin: 1rem;
+
+$paragraph-font-family: inherit;
+$paragraph-font-weight: $font-weight-normal;
+$paragraph-font-size: 1rem;
+$paragraph-line-height: 1.6;
+$paragraph-margin-bottom: rem-calc(30);

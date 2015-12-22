@@ -7,7 +7,15 @@
 body {
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
-	background-color: blue;
+	background-color: #3481C3;
+
+	&.page-id-10, &.page-id-14, &.page-id-18, &.page-id-67 {
+	    background-color: #729C2C;
+	}
+
+	&.page-id-16 {
+	    background-color: #A80000;
+	}
 }
 
 // Reset margin and padding on figure element
